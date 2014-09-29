@@ -4,6 +4,7 @@
 
 1. Compile using `make` to create two executables "shell" & "carlo"
 2. Start the shell script using `./shell <int>`
+	* Input/Output is not redirected
 	* The parameter will determine the precision of the monte carlo simulation
 	* The shell will ignore SIGTSTP & SIGINT
 	* Exit the shell by typing the command `exit`
